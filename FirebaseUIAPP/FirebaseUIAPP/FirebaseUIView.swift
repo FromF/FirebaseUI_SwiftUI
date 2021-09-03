@@ -7,7 +7,11 @@
 //
 
 import SwiftUI
-import FirebaseUI
+import FirebaseAuthUI
+import FirebaseGoogleAuthUI
+import FirebaseOAuthUI
+//import FirebaseFacebookAuthUI
+//import FirebasePhoneAuthUI
 
 struct FirebaseUIView: UIViewControllerRepresentable {
     @Binding var isShowSheet: Bool
@@ -51,10 +55,10 @@ struct FirebaseUIView: UIViewControllerRepresentable {
         authUI.delegate = context.coordinator
         // サポートするログイン方法を構成
         let providers: [FUIAuthProvider] = [
-            FUIGoogleAuth(),
-//            FUIFacebookAuth(),
-//            FUITwitterAuth(),
-//            FUIPhoneAuth(authUI:FUIAuth.defaultAuthUI()),
+            FUIGoogleAuth(authUI: authUI),
+//            FUIFacebookAuth(authUI: authUI),
+//            FUIOAuth.twitterAuthProvider(),
+//            FUIPhoneAuth(authUI:authUI),
             FUIOAuth.appleAuthProvider(),
         ]
         authUI.providers = providers
