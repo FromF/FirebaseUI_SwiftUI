@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D23A1752793DFF40041646D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D7BF3F024F8F5CA007158BC /* GoogleService-Info.plist */; };
 		9D5824DD26E1D78000889042 /* FirebaseAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9D5824DC26E1D78000889042 /* FirebaseAuthUI */; };
 		9D5824DF26E1D78000889042 /* FirebaseGoogleAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9D5824DE26E1D78000889042 /* FirebaseGoogleAuthUI */; };
 		9D5824E126E1D78000889042 /* FirebaseOAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9D5824E026E1D78000889042 /* FirebaseOAuthUI */; };
@@ -16,7 +17,6 @@
 		9D7BF3E124F8F495007158BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7BF3E024F8F495007158BC /* Assets.xcassets */; };
 		9D7BF3E424F8F495007158BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7BF3E324F8F495007158BC /* Preview Assets.xcassets */; };
 		9D7BF3E724F8F495007158BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D7BF3E524F8F495007158BC /* LaunchScreen.storyboard */; };
-		9D7BF3F124F8F5CA007158BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D7BF3F024F8F5CA007158BC /* GoogleService-Info.plist */; };
 		9D7BF3F324F8F5E7007158BC /* FirebaseUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BF3F224F8F5E7007158BC /* FirebaseUIView.swift */; };
 		9D7BF3F524F8FABB007158BC /* FirebaseAuthStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BF3F424F8FABB007158BC /* FirebaseAuthStateManager.swift */; };
 /* End PBXBuildFile section */
@@ -157,7 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D7BF3E724F8F495007158BC /* LaunchScreen.storyboard in Resources */,
-				9D7BF3F124F8F5CA007158BC /* GoogleService-Info.plist in Resources */,
+				9D23A1752793DFF40041646D /* GoogleService-Info.plist in Resources */,
 				9D7BF3E424F8F495007158BC /* Preview Assets.xcassets in Resources */,
 				9D7BF3E124F8F495007158BC /* Assets.xcassets in Resources */,
 			);
@@ -242,7 +242,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -296,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -314,6 +314,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FirebaseUIAPP/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FirebaseUIAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,6 +334,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FirebaseUIAPP/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FirebaseUIAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

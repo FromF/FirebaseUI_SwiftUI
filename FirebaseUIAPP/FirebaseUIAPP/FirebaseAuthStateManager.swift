@@ -28,4 +28,11 @@ class FirebaseAuthStateManager: ObservableObject {
         Auth.auth().removeStateDidChangeListener(handle)
     }
     
+    func signOut() {
+        do {
+            try Auth.auth().signOut()
+        } catch {
+            print("Error")
+        }
+    }
 }

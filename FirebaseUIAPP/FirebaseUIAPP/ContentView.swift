@@ -7,12 +7,11 @@
 //
 
 import SwiftUI
-import FirebaseAuth
 
 struct ContentView: View {
     @ObservedObject private var authStateManager = FirebaseAuthStateManager()
     @State var isShowSheet = false
-
+    
     var body: some View {
         VStack {
             if authStateManager.signInState == false {
@@ -20,23 +19,19 @@ struct ContentView: View {
                 Button(action: {
                     self.isShowSheet.toggle()
                 }) {
-                Text("Sign-In")
+                    Text("Sign-In")
                 }
             } else {
                 // Sign-In状態なのでSign-Outボタンを表示する
                 Button(action: {
-                    do {
-                        try Auth.auth().signOut()
-                    } catch {
-                        print("Error")
-                    }
+                    authStateManager.signOut()
                 }) {
-                Text("Sign-Out")
+                    Text("Sign-Out")
                 }
             }
         }
         .sheet(isPresented: $isShowSheet) {
-            FirebaseUIView(isShowSheet: self.$isShowSheet)
+            FirebaseUIView()
         }
     }
 }
