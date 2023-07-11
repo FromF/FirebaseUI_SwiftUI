@@ -11,28 +11,24 @@
 		9D5824DD26E1D78000889042 /* FirebaseAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9D5824DC26E1D78000889042 /* FirebaseAuthUI */; };
 		9D5824DF26E1D78000889042 /* FirebaseGoogleAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9D5824DE26E1D78000889042 /* FirebaseGoogleAuthUI */; };
 		9D5824E126E1D78000889042 /* FirebaseOAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9D5824E026E1D78000889042 /* FirebaseOAuthUI */; };
-		9D7BF3DB24F8F493007158BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BF3DA24F8F493007158BC /* AppDelegate.swift */; };
-		9D7BF3DD24F8F493007158BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BF3DC24F8F493007158BC /* SceneDelegate.swift */; };
 		9D7BF3DF24F8F493007158BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BF3DE24F8F493007158BC /* ContentView.swift */; };
 		9D7BF3E124F8F495007158BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7BF3E024F8F495007158BC /* Assets.xcassets */; };
 		9D7BF3E424F8F495007158BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7BF3E324F8F495007158BC /* Preview Assets.xcassets */; };
-		9D7BF3E724F8F495007158BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D7BF3E524F8F495007158BC /* LaunchScreen.storyboard */; };
 		9D7BF3F324F8F5E7007158BC /* FirebaseUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BF3F224F8F5E7007158BC /* FirebaseUIView.swift */; };
 		9D7BF3F524F8FABB007158BC /* FirebaseAuthStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BF3F424F8FABB007158BC /* FirebaseAuthStateManager.swift */; };
+		9DC1E3542A5DAD10005E537F /* FirebaseUIAPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC1E3532A5DAD10005E537F /* FirebaseUIAPPApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9D7BF3D724F8F493007158BC /* FirebaseUIAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseUIAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D7BF3DA24F8F493007158BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D7BF3DC24F8F493007158BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9D7BF3DE24F8F493007158BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9D7BF3E024F8F495007158BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D7BF3E324F8F495007158BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9D7BF3E624F8F495007158BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D7BF3E824F8F495007158BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D7BF3F024F8F5CA007158BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		9D7BF3F224F8F5E7007158BC /* FirebaseUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUIView.swift; sourceTree = "<group>"; };
 		9D7BF3F424F8FABB007158BC /* FirebaseAuthStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthStateManager.swift; sourceTree = "<group>"; };
+		9DC1E3532A5DAD10005E537F /* FirebaseUIAPPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUIAPPApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,13 +64,11 @@
 		9D7BF3D924F8F493007158BC /* FirebaseUIAPP */ = {
 			isa = PBXGroup;
 			children = (
-				9D7BF3DA24F8F493007158BC /* AppDelegate.swift */,
-				9D7BF3DC24F8F493007158BC /* SceneDelegate.swift */,
+				9DC1E3532A5DAD10005E537F /* FirebaseUIAPPApp.swift */,
 				9D7BF3DE24F8F493007158BC /* ContentView.swift */,
 				9D7BF3F424F8FABB007158BC /* FirebaseAuthStateManager.swift */,
 				9D7BF3F224F8F5E7007158BC /* FirebaseUIView.swift */,
 				9D7BF3E024F8F495007158BC /* Assets.xcassets */,
-				9D7BF3E524F8F495007158BC /* LaunchScreen.storyboard */,
 				9D7BF3E824F8F495007158BC /* Info.plist */,
 				9D7BF3F024F8F5CA007158BC /* GoogleService-Info.plist */,
 				9D7BF3E224F8F495007158BC /* Preview Content */,
@@ -156,7 +150,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D7BF3E724F8F495007158BC /* LaunchScreen.storyboard in Resources */,
 				9D23A1752793DFF40041646D /* GoogleService-Info.plist in Resources */,
 				9D7BF3E424F8F495007158BC /* Preview Assets.xcassets in Resources */,
 				9D7BF3E124F8F495007158BC /* Assets.xcassets in Resources */,
@@ -170,26 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D7BF3DB24F8F493007158BC /* AppDelegate.swift in Sources */,
 				9D7BF3F324F8F5E7007158BC /* FirebaseUIView.swift in Sources */,
-				9D7BF3DD24F8F493007158BC /* SceneDelegate.swift in Sources */,
 				9D7BF3F524F8FABB007158BC /* FirebaseAuthStateManager.swift in Sources */,
+				9DC1E3542A5DAD10005E537F /* FirebaseUIAPPApp.swift in Sources */,
 				9D7BF3DF24F8F493007158BC /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		9D7BF3E524F8F495007158BC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D7BF3E624F8F495007158BC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9D7BF3E924F8F495007158BC /* Debug */ = {
