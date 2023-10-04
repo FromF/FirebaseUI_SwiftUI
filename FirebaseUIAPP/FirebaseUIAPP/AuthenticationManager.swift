@@ -8,7 +8,7 @@
 import Foundation
 import FirebaseAuth
 
-@Observable class AuthenticationManager: ObservableObject {
+@Observable class AuthenticationManager {
     private(set) var isSignIn: Bool = false
     private var handle: AuthStateDidChangeListenerHandle!
     
