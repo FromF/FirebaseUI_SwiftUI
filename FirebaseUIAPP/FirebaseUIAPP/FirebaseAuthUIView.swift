@@ -1,5 +1,5 @@
 //
-//  FirebaseUIView.swift
+//  FirebaseAuthUIView.swift
 //  FirebaseUIAPP
 //
 //  Created by 藤 治仁 on 2020/08/28.
@@ -13,7 +13,7 @@ import FirebaseOAuthUI
 //import FirebaseFacebookAuthUI
 //import FirebasePhoneAuthUI
 
-struct FirebaseUIView: UIViewControllerRepresentable {
+struct FirebaseAuthUIView: UIViewControllerRepresentable {
     func makeUIViewController(context: Context) -> UINavigationController {
         let authUI = FUIAuth.defaultAuthUI()!
         // サポートするログイン方法を構成
@@ -33,6 +33,6 @@ struct FirebaseUIView: UIViewControllerRepresentable {
     }
     
     func updateUIViewController(_ uiViewController: UINavigationController, context: Context) {
-        
+        // 処理なし
     }
 }

@@ -34,7 +34,7 @@ struct ChatAPPApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
         }
     }
 }
